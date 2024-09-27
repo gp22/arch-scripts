@@ -47,6 +47,7 @@ PKGS=(
     'curl'                  # Remote content retrieval
     'man-db'                # Man pages
     'man-pages'             # Man pages
+    'p7zip'                 # File archiver
     'tmux'                  # Terminal multiplexer
     'unzip'                 # Zip compression program
     'wget'                  # Remote content retrieval
