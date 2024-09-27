@@ -7,7 +7,15 @@ Run these commands as a non-root user with sudo privileges.
 Install git
 
 ```bash
-sudo pacman -S git
+sudo pacman -S git --noconfirm
+```
+
+Install yay
+
+```bash
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -sri
 ```
 
 Clone this repo

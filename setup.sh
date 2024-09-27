@@ -6,6 +6,15 @@ echo "FINAL SETUP AND CONFIGURATION"
 # ------------------------------------------------------------------------
 
 echo
+echo "ENABLING NETWORK MANAGER"
+echo
+
+sudo systemctl start NetworkManager
+sudo systemctl enable NetworkManager
+
+# ------------------------------------------------------------------------
+
+echo
 echo "CHANGING DEFAULT SHELL TO ZSH"
 echo
 
