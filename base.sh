@@ -13,6 +13,7 @@ PKGS=(
   'hyprland'
   'waybar'
   'dunst'
+  'foliate'
   'hyprpaper'
   'hypridle'
   'xdg-desktop-portal-hyprland'
