@@ -8,40 +8,40 @@ PKGS=(
 
   # SYSTEM --------------------------------------------------------------
 
-  'networkmanager'
-  'nmtui'
-  'hyprland'
-  'waybar'
-  'dunst'
-  'foliate'
-  'hyprpaper'
-  'hypridle'
-  'xdg-desktop-portal-hyprland'
-  'xdg-user-dirs-gtk'
-  'wofi'
-  'noto-fonts'
-  'ttf-fira-sans'
-  'ttf-font-awesome'
-  'lxappearance'
-  'libadwaita'
-  'brightnessctl'
-  'kitty'
   'alacritty'
-  'hyprlock'
-  'mousepad'
-  'file-roller'
-  'tumbler'
-  'ffmpegthumbnailer'
-  'gvfs-mtp galculator'
-  'ristretto'
-  'ttf-hack-nerd'
-  'ripgrep'
-  'thunar'
-  'thunar-archive-plugin'
+  'blueman'
   'bluez'
   'bluez-utils'
-  'blueman'
+  'brightnessctl'
+  'dunst'
+  'ffmpegthumbnailer'
+  'file-roller'
+  'foliate'
+  'gvfs-mtp galculator'
+  'hypridle'
+  'hyprland'
+  'hyprlock'
+  'hyprpaper'
+  'kitty'
+  'lxappearance'
+  'libadwaita'
+  'mousepad'
+  'networkmanager'
+  'nmtui'
+  'noto-fonts'
+  'ripgrep'
+  'ristretto'
+  'rofi'
+  'thunar'
+  'thunar-archive-plugin'
+  'ttf-fira-sans'
+  'ttf-font-awesome'
+  'ttf-hack-nerd'
+  'tumbler'
+  'waybar'
   'wlsunset'
+  'xdg-desktop-portal-hyprland'
+  'xdg-user-dirs-gtk'
 
   # TERMINAL UTILITIES --------------------------------------------------
 
@@ -62,9 +62,9 @@ PKGS=(
 
   'clang'   # C Lang compiler
   'cmake'   # Cross-platform open-source make system
-  'git'     # Version control system
   'gcc'     # C/C++ compiler
   'gdb'     # GNU Debugger
+  'git'     # Version control system
   'glibc'   # C libraries
   'lazygit' # Git terminal GUI
   'neovim'  # Better than vim
@@ -86,10 +86,10 @@ PKGS=(
 )
 
 YAYPKGS=(
-  'wlogout'
-  'librewolf-bin'
   'brave-bin'
   'kmonad-bin'
+  'librewolf-bin'
+  'wlogout'
 )
 
 for PKG in "${PKGS[@]}"; do
