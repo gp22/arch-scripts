@@ -8,42 +8,42 @@ PKGS=(
 
   # SYSTEM --------------------------------------------------------------
 
-  'alacritty'
-  'blueman'
-  'bluez'
-  'bluez-utils'
-  'brightnessctl'
-  'dunst'
-  'ffmpegthumbnailer'
-  'file-roller'
-  'foliate'
-  'gvfs-mtp galculator'
-  'hypridle'
-  'hyprland'
-  'hyprlock'
-  'hyprpaper'
-  'kitty'
-  'lxappearance'
-  'libadwaita'
-  'networkmanager'
-  'nmtui'
-  'noto-fonts'
-  'polkit-kde-agent'
-  'qt5-wayland'
-  'qt6-wayland'
-  'ripgrep'
-  'ristretto'
-  'rofi'
-  'thunar'
-  'thunar-archive-plugin'
-  'ttf-fira-sans'
-  'ttf-font-awesome'
-  'ttf-hack-nerd'
-  'tumbler'
-  'waybar'
-  'wlsunset'
-  'xdg-desktop-portal-hyprland'
-  'xdg-user-dirs-gtk'
+  'alacritty'                   # Terminal
+  'blueman'                     # Bluetooth
+  'bluez'                       # Bluetooth
+  'bluez-utils'                 # Bluetooth
+  'brightnessctl'               # Control screen brightness
+  'dunst'                       # Wayland notifications
+  'ffmpegthumbnailer'           #
+  'file-roller'                 #
+  'foliate'                     # Ebook reader
+  'gvfs-mtp galculator'         #
+  'hypridle'                    # Hyprland idle control
+  'hyprland'                    # Wayland window manager
+  'hyprlock'                    # Hyprland lock screen
+  'hyprpaper'                   # Hyprland wallpaper
+  'kitty'                       # Terminal
+  'lxappearance'                #
+  'libadwaita'                  #
+  'networkmanager'              #
+  'nmtui'                       #
+  'noto-fonts'                  #
+  'polkit-kde-agent'            #
+  'qt5-wayland'                 # Wayland display library
+  'qt6-wayland'                 # Wayland display library
+  'ripgrep'                     #
+  'ristretto'                   #
+  'rofi'                        # Wayland program launcher
+  'thunar'                      #
+  'thunar-archive-plugin'       #
+  'ttf-fira-sans'               #
+  'ttf-font-awesome'            #
+  'ttf-hack-nerd'               #
+  'tumbler'                     #
+  'waybar'                      # Wayland status bar
+  'wlsunset'                    # Wayland screen nightshift
+  'xdg-desktop-portal-hyprland' #
+  'xdg-user-dirs-gtk'           #
 
   # TERMINAL UTILITIES --------------------------------------------------
 
@@ -62,16 +62,17 @@ PKGS=(
 
   # DEVELOPMENT ---------------------------------------------------------
 
-  'clang'   # C Lang compiler
-  'cmake'   # Cross-platform open-source make system
-  'gcc'     # C/C++ compiler
-  'gdb'     # GNU Debugger
-  'git'     # Version control system
-  'glibc'   # C libraries
-  'lazygit' # Git terminal GUI
-  'neovim'  # Better than vim
-  'python'  # Scripting language
-  'vim'
+  'clang'    # C Lang compiler
+  'cmake'    # Cross-platform open-source make system
+  'gcc'      # C/C++ compiler
+  'gdb'      # GNU Debugger
+  'git'      # Version control system
+  'glibc'    # C libraries
+  'lazygit'  # Git terminal GUI
+  'neovim'   # Better than vim
+  'python'   # Scripting language
+  'valgrind' # C program memory checker
+  'vim'      # Text editor
 
   # WEB TOOLS -----------------------------------------------------------
 
@@ -83,19 +84,19 @@ PKGS=(
 
   # PRODUCTIVITY --------------------------------------------------------
 
-  'thunderbird'
+  'thunderbird' # Mail and calendar client
 
   # VIRTUALIZATION ------------------------------------------------------
 
 )
 
 YAYPKGS=(
-  'brave-bin'
-  'discord_arch_electron'
-  'kmonad-bin'
-  'librewolf-bin'
-  'slack-desktop-wayland'
-  'wlogout'
+  'brave-bin'             # Brave browser
+  'discord_arch_electron' # Discord
+  'kmonad-bin'            # Keyboard remapper
+  'librewolf-bin'         # Librewolf privacy browser
+  'slack-desktop-wayland' # Slack
+  'wlogout'               # Wayland logout
 )
 
 for PKG in "${PKGS[@]}"; do
