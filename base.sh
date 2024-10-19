@@ -25,10 +25,12 @@ PKGS=(
   'kitty'
   'lxappearance'
   'libadwaita'
-  'mousepad'
   'networkmanager'
   'nmtui'
   'noto-fonts'
+  'polkit-kde-agent'
+  'qt5-wayland'
+  'qt6-wayland'
   'ripgrep'
   'ristretto'
   'rofi'
@@ -87,8 +89,10 @@ PKGS=(
 
 YAYPKGS=(
   'brave-bin'
+  'discord_arch_electron'
   'kmonad-bin'
   'librewolf-bin'
+  'slack-desktop-wayland'
   'wlogout'
 )
 
