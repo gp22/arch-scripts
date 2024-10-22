@@ -76,9 +76,18 @@ PKGS=(
 
   # WEB TOOLS -----------------------------------------------------------
 
+  'chromium' # Web browser
+
   # COMMUNICATIONS ------------------------------------------------------
 
   # MEDIA ---------------------------------------------------------------
+
+  'pavucontrol'    # Audio control
+  'pipewire'       # Multimedia framework, essential to Hyprland
+  'pipewire-alsa'  # Route all applications using the ALSA API through Pipewire
+  'pipewire-audio' # Pipewire audio support
+  'pipewire-pulse' # Replaces pulseaudio
+  'wireplumber'    # Pipewire policy/session manager, essential to Hyprland
 
   # GRAPHICS AND DESIGN -------------------------------------------------
 
