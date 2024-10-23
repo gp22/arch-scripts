@@ -25,6 +25,8 @@ PKGS=(
   'kitty'                       # Terminal
   'lxappearance'                #
   'libadwaita'                  #
+  'linux-lts'                   # Linux kernel, needed to get bluetooth mouse working
+  'linux-zen'                   # Linux kernel, needed to get bluetooth mouse working 
   'networkmanager'              #
   'nmtui'                       #
   'noto-fonts'                  #
