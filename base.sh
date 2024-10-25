@@ -13,7 +13,6 @@ PKGS=(
   'bluez'                       # Bluetooth
   'bluez-utils'                 # Bluetooth
   'brightnessctl'               # Control screen brightness
-  'dunst'                       # Wayland notifications, essential to Hyprland
   'ffmpegthumbnailer'           #
   'file-roller'                 #
   'foliate'                     # Ebook reader
@@ -36,6 +35,7 @@ PKGS=(
   'ripgrep'                     #
   'ristretto'                   #
   'rofi'                        # Wayland program launcher
+  'swaync'                      # Wayland notifications, essential to Hyprland
   'thunar'                      #
   'thunar-archive-plugin'       #
   'ttf-fira-sans'               #
