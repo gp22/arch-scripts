@@ -16,6 +16,7 @@ PKGS=(
   'ffmpegthumbnailer'           #
   'file-roller'                 #
   'foliate'                     # Ebook reader
+  'ghostty'                     # Terminal
   'gvfs-mtp galculator'         #
   'hypridle'                    # Hyprland idle control
   'hyprland'                    # Wayland window manager
@@ -25,7 +26,7 @@ PKGS=(
   'lxappearance'                #
   'libadwaita'                  #
   'linux-lts'                   # Linux kernel, needed to get bluetooth mouse working
-  'linux-zen'                   # Linux kernel, needed to get bluetooth mouse working 
+  'linux-zen'                   # Linux kernel, needed to get bluetooth mouse working
   'networkmanager'              #
   'nmtui'                       #
   'noto-fonts'                  #
