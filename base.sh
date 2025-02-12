@@ -57,6 +57,7 @@ PKGS=(
   'tmux'      # Terminal multiplexer
   'unzip'     # Zip compression program
   'wget'      # Remote content retrieval
+  'yazi'      # File manager
   'zsh'       # ZSH shell
 
   # DISK UTILITIES ------------------------------------------------------
