@@ -8,7 +8,6 @@ PKGS=(
 
   # SYSTEM --------------------------------------------------------------
 
-  'alacritty'                   # Terminal
   'blueman'                     # Bluetooth
   'bluez'                       # Bluetooth
   'bluez-utils'                 # Bluetooth
@@ -22,7 +21,6 @@ PKGS=(
   'hyprland'                    # Wayland window manager
   'hyprlock'                    # Hyprland lock screen
   'hyprpaper'                   # Hyprland wallpaper
-  'kitty'                       # Terminal
   'lxappearance'                #
   'libadwaita'                  #
   'linux-lts'                   # Linux kernel, needed to get bluetooth mouse working
