@@ -14,13 +14,16 @@ PKGS=(
   'brightnessctl'               # Control screen brightness
   'ffmpegthumbnailer'           #
   'file-roller'                 #
-  'foliate'                     # Ebook reader
+# 'foliate'                     # Ebook reader
   'ghostty'                     # Terminal
+  'gnome'                       #
+  'gnome-tweaks'                #
+  'gnome-shell-extensions'      #
   'gvfs-mtp galculator'         #
-  'hypridle'                    # Hyprland idle control
-  'hyprland'                    # Wayland window manager
-  'hyprlock'                    # Hyprland lock screen
-  'hyprpaper'                   # Hyprland wallpaper
+# 'hypridle'                    # Hyprland idle control
+# 'hyprland'                    # Wayland window manager
+# 'hyprlock'                    # Hyprland lock screen
+# 'hyprpaper'                   # Hyprland wallpaper
   'lxappearance'                #
   'libadwaita'                  #
   'linux-lts'                   # Linux kernel, needed to get bluetooth mouse working
@@ -33,16 +36,16 @@ PKGS=(
   'qt6-wayland'                 # Wayland display library
   'ripgrep'                     #
   'ristretto'                   #
-  'rofi'                        # Wayland program launcher
-  'swaync'                      # Wayland notifications, essential to Hyprland
-  'thunar'                      #
-  'thunar-archive-plugin'       #
+# 'rofi'                        # Wayland program launcher
+# 'swaync'                      # Wayland notifications, essential to Hyprland
+# 'thunar'                      #
+# 'thunar-archive-plugin'       #
   'ttf-fira-sans'               #
   'ttf-font-awesome'            #
   'ttf-hack-nerd'               #
   'tumbler'                     #
-  'waybar'                      # Wayland status bar
-  'wlsunset'                    # Wayland screen nightshift
+# 'waybar'                      # Wayland status bar
+# 'wlsunset'                    # Wayland screen nightshift
   'xdg-desktop-portal-hyprland' #
   'xdg-user-dirs-gtk'           #
 
@@ -106,8 +109,8 @@ YAYPKGS=(
   'discord_arch_electron' # Discord
   'kmonad-bin'            # Keyboard remapper
   'librewolf-bin'         # Librewolf privacy browser
-  'slack-desktop-wayland' # Slack
-  'wlogout'               # Wayland logout
+# 'slack-desktop-wayland' # Slack
+# 'wlogout'               # Wayland logout
 )
 
 for PKG in "${PKGS[@]}"; do
