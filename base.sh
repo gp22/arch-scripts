@@ -12,11 +12,13 @@ PKGS=(
   'bluez'                       # Bluetooth
   'bluez-utils'                 # Bluetooth
   'brightnessctl'               # Control screen brightness
+  'dconf-editor'                # GUI for editing gnome dconf database
   'ffmpegthumbnailer'           #
   'file-roller'                 #
 # 'foliate'                     # Ebook reader
   'ghostty'                     # Terminal
   'gnome'                       #
+  'gnome-browser-connector'     #
   'gnome-tweaks'                #
   'gnome-shell-extensions'      #
   'gvfs-mtp galculator'         #
