@@ -78,17 +78,7 @@ echo
 echo "INSTALLING DOTFILES"
 echo
 
-cd ~/.config/dotfiles
-
-if [ $? -ne 0 ]; then
-  echo
-  echo "Failed."
-  echo
-
-  exit 1
-fi
-
-./install.sh
+cd ~/.config/dotfiles && chmod +x install.sh && ./install.sh
 
 if [ $? -ne 0 ]; then
   echo

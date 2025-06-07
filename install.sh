@@ -9,5 +9,5 @@ else
     exit
 fi
 
-chmod 755 base.sh && ./base.sh
-chmod 755 setup.sh && ./setup.sh
+chmod +x base.sh && ./base.sh
+chmod +x setup.sh && ./setup.sh
