@@ -46,6 +46,8 @@ PKGS=(
   'ttf-font-awesome'            #
   'ttf-hack-nerd'               #
   'tumbler'                     #
+  'usbutils'                    # Needed to get usb ethernet adapter working
+  'usb_modeswitch'              # Needed to get usb ethernet adapter working
 # 'waybar'                      # Wayland status bar
 # 'wlsunset'                    # Wayland screen nightshift
   'xdg-desktop-portal-hyprland' #
