@@ -31,7 +31,7 @@ PKGS=(
   'linux-lts'                   # Linux kernel, needed to get bluetooth mouse working
   'linux-zen'                   # Linux kernel, needed to get bluetooth mouse working
   'networkmanager'              #
-  'nmtui'                       #
+  'nmtui'                       # Terminal network manager
   'noto-fonts'                  #
   'polkit-kde-agent'            #
   'qt5-wayland'                 # Wayland display library
